@@ -1,0 +1,13 @@
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.exe
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.deps.json
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.runtimeconfig.json
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.runtimeconfig.dev.json
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.dll
+G:\Projects\FLCD\Scanner\Scanner\bin\Debug\netcoreapp3.1\Scanner.pdb
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.csprojAssemblyReference.cache
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.AssemblyInfoInputs.cache
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.AssemblyInfo.cs
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.csproj.CoreCompileInputs.cache
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.dll
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.pdb
+G:\Projects\FLCD\Scanner\Scanner\obj\Debug\netcoreapp3.1\Scanner.genruntimeconfig.cache
