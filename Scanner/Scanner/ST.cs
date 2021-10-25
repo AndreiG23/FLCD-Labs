@@ -27,26 +27,13 @@ namespace Scanner
                 }
 
                 h++;
-                if (h >= Capacity)
-                {
-                    resize();
-                }
             }
 
             table[h] = key;
             return true;
         }
 
-        private void resize()
-        {
-
-        }
-
-        public void remove(string key)
-        {
-        }
-
-        public int Find(string key)
+        public int Search(string key)
         {
             int h = hashFunction(key);
 

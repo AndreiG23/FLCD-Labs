@@ -15,11 +15,11 @@ namespace Scanner
             Console.WriteLine(symbolTable.Add("yx"));
             Console.WriteLine(symbolTable.Add("xyz"));
 
-            Console.WriteLine(symbolTable.Find("x"));
-            Console.WriteLine(symbolTable.Find("y"));
-            Console.WriteLine(symbolTable.Find("xy"));
-            Console.WriteLine(symbolTable.Find("yx"));
-            Console.WriteLine(symbolTable.Find("w"));
+            Console.WriteLine(symbolTable.Search("x"));
+            Console.WriteLine(symbolTable.Search("y"));
+            Console.WriteLine(symbolTable.Search("xy"));
+            Console.WriteLine(symbolTable.Search("yx"));
+            Console.WriteLine(symbolTable.Search("w"));
         }
     }
 }
