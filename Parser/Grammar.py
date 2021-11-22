@@ -1,3 +1,4 @@
+
 class Grammar:
     def __init__(self, N, E, P, S):
         self.N = N 
@@ -60,6 +61,15 @@ class Grammar:
                 if char == 'E': 
                     notAllowedInRhs.append(lhs)
                     
+            if hasNonTerminal and not hasTerminal: 
+                return False
+
+            if len(lhs) > 1: 
+                return False
+        
+        for char in notAllowedInRhs: 
+            if char in usedInRhs: 
+                return False 
             
         return True
    
@@ -70,7 +80,7 @@ class Grammar:
         return [ prod for prod in self.P if prod[0] == nonTerminal ]
         
     def __str__(self):
-        return "N = { " + ', '.join(self.N) + " }\n" \
-                "E = { " + ', '.join(self.E) + " }\n" \
-                "P = { " + self.P + " }\n" \
-                "S = " + str(self.S)
+        return 'N = { ' + ', '.join(self.N) + ' }\n' \
+             + 'E = { ' + ', '.join(self.E) + ' }\n' \
+             + 'P = { ' + ', '.join([' -> '.join([prod[0], ' '.join(prod[1])]) for prod in self.P]) + ' }\n' \
+             + 'S = ' + str(self.S) + '\n'
